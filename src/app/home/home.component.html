@@ -1,0 +1,36 @@
+<div class="page-main-container">
+  <!-- Service grid -->
+  <div class="service section-gap">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
+            <h2>Best Solutions For Your Business Needs!</h2>
+            <p class="mb-0">
+              Best solutions from worlds class professionals developed with
+              latest trends and designs.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+    </div>
+  </div>
+  <!-- Products slider -->
+  <div angly-footerLogoList [logoList]="footerLogo" class="client-logo"></div>
+  <!-- Posts grid -->
+  <div class="post-section bg-light section-gap">
+    <div class="container">
+      <div class="section-title-wrapper">
+        <div class="row">
+          <div class="col-sm-12 col-md-10 mx-auto text-center">
+            <h2>Latest Blog Posts</h2>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck">
+        <div class="row" angly-postGrid [postGridContent]="posts"></div>
+      </div>
+    </div>
+  </div>
+</div>
