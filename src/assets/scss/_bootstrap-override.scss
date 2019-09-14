@@ -72,11 +72,11 @@ $grays: (
   900: $gray-900
 ) !default;
 
-$blue:                         #0066EB !default;
-$green:                        #00caac !default;
-$teal:                         #51CAE3 !default;
-$orange:                       #ff5723 !default;
-$red:                          #F54B5E !default;
+$blue:                         #146EB4 !default;
+$green:                        #00B9AE !default;
+$teal:                         #BFACAA !default;
+$orange:                       #FF9900 !default;
+$red:                          #E54B4B !default;
 
 $yellow:                       #F8C51C !default;
 $cyan:                         #43AE3F !default; // Type Of Green Shade
@@ -105,14 +105,14 @@ $colors: (
 ) !default;
 
 $theme-colors: (
-  primary:   $blue,
-  secondary: $gray-600,
+  primary:   $orange,
+  secondary: $blue,
   success:   $green,
   info:      $teal,
-  warning:   $orange,
+  warning:   $red,
   danger:    $red,
   light:     $gray-300,
-  dark:      $gray-800
+  dark:      $black
 ) !default;
 
 // Set a specific jump point for requesting color jumps

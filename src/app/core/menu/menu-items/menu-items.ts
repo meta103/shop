@@ -32,7 +32,7 @@ const HEADERMENUITEMS = [
     type: 'link'
   },
   {
-    state: 'amazon/product-list',
+    state: 'amazon/products',
     name: 'Shop',
     type: 'link'
   },
@@ -121,7 +121,7 @@ const FOOTERMENU2 = [
     type: 'link'
   },
   {
-    state: 'amazon/product-list',
+    state: 'amazon/products',
     name: 'Shop',
     type: 'link'
   },

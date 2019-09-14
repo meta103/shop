@@ -80,13 +80,13 @@
       transform: translate3d(0px, -0.8rem, 0px);
     }
     .text-warning + .info-title {
-      color: $orange;
+      color: $red;
     }
     .text-primary + .info-title {
-      color: $blue;
+      color: $orange;
     }
     .text-info + .info-title {
-      color: $teal;
+      color: $green;
     }
   }
 }
@@ -226,20 +226,21 @@
 }
 .subscribe-section {
   input[type="email"] {
-    background-color: lighten($cyan, 6.5%);
+    background-color: lighten($blue, 6.5%);
     border: 0;
     padding: 10px 10px 10px 40px;
     position: relative;
   }
   .has-icon {
     position: absolute;
+    color: $gray-300;
     left: 19px;
     top: 11px;
     font-size: 27px;
   }
   .form-control::placeholder {
     font-size: 14px;
-    color: $white;
+    color: $gray-300;
   }
 }
 

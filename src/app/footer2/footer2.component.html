@@ -1,4 +1,5 @@
-<div *ngIf="router?.url != '/sign-up' && router?.url != '/login' && router?.url != '/thank-you' && router?.url != '/not-found' && router?.url != '/maintenance'">
+<div
+   *ngIf="router?.url != '/sign-up' && router?.url != '/login' && router?.url != '/thank-you' && router?.url != '/not-found' && router?.url != '/maintenance'">
    <!-- Footer section 2 -->
    <div angly-subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
    <div class="footer-wrapper-2 py-5 bg-light">
@@ -6,9 +7,9 @@
          <div class="row">
             <div class="col-sm-12 col-md-8 col-lg-8">
                <div class="bottom-footer mb-2">
-                  <ul class="list-inline mb-0 font-weight-bold"  *ngIf="footer2Menu">
+                  <ul class="list-inline mb-0 font-weight-bold" *ngIf="footer2Menu">
                      <li class="list-inline-item" *ngFor="let menu of footer2Menu">
-                        <a [routerLink]="['/', menu.state]" routerLinkActive="active-link" *ngIf="menu.type === 'link'">
+                        <a (click)="onClick(menu.state)" routerLinkActive="active-link" *ngIf="menu.type === 'link'">
                            <span>{{ menu?.name }}</span>
                         </a>
                      </li>
@@ -21,7 +22,8 @@
                   <ul class="list-inline mb-0">
                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                     <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li>
+                     <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a>
+                     </li>
                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
                      <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
                   </ul>

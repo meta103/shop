@@ -24,7 +24,7 @@ export const AppRoutes: Routes = [
         component: HomeComponent
       },
       {
-        path: 'products',
+        path: 'amazon/products',
         loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule)
       },
       {
@@ -65,4 +65,4 @@ export const AppRoutes: Routes = [
   exports: [RouterModule],
   declarations: []
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

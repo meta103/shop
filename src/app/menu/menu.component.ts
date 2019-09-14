@@ -11,23 +11,27 @@ declare var $: any;
 })
 export class MenuComponent implements OnInit {
 
-	searchactive: boolean = false;
+  searchactive: boolean = false;
 
-	constructor(public menuItems: MenuItems, public router: Router) { }
+  constructor(public menuItems: MenuItems, public router: Router) { }
 
-	ngOnInit() {}
+  ngOnInit() { }
 
-	searchActiveFunction(){
-		this.searchactive = !this.searchactive;
-	}
-   
-	onClickOutside(event:Object) {
-    if(event && event['value'] === true) {
+  searchActiveFunction() {
+    this.searchactive = !this.searchactive;
+  }
+
+  onClickOutside(event: Object) {
+    if (event && event['value'] === true) {
       this.searchactive = false;
     }
-   }
-	
-	public removeCollapseInClass() {
-      $("#navbarCollapse").removeClass('show');
-   }
+  }
+
+  onClick(page: string) {
+    this.router.navigate([page]);
+  }
+
+  public removeCollapseInClass() {
+    $("#navbarCollapse").removeClass('show');
+  }
 }

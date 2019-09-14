@@ -6,18 +6,13 @@ import { ProductDetailComponent } from './productDetail/productDetail.component'
 export const ShopRoutes: Routes = [
   {
     path: '',
-    redirectTo: 'products',
-    pathMatch: 'full'
-  },
-  {
-    path: '',
     children: [
       {
         path: '',
         component: ProductlistComponent
       },
       {
-        path: 'product-detail',
+        path: ':id',
         component: ProductDetailComponent
       }
     ]
