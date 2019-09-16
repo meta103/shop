@@ -1,48 +1,44 @@
 
-import {map} from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import 'rxjs/Rx';
 
 interface Response {
-  data     : any;
+   data: any;
 }
 
 @Injectable()
 export class ChkService {
 
-   constructor( private http: HttpClient) { }
+   constructor(private http: HttpClient) { }
 
    /*
     * Get the content of home page.
     */
-   getHomeContent()
-   {
+   getHomeContent() {
       return this.http.get<Response>("assets/data/home.json").pipe(map(response => response.data));
    }
 
    /*
     * Get services
     */
-   getServices()
-   {
-     return this.http.get<Response>("assets/data/service.json").pipe(map(response => response.data));
+   getServices() {
+      return this.http.get<Response>("assets/data/service.json").pipe(map(response => response.data));
    }
 
 
    /*
     * Get posts
     */
-   getPosts()
-   {
+   getPosts() {
       return this.http.get<Response>("assets/data/posts.json").pipe(map(response => response.data));
    }
 
    /*
     * Get project gallary
     */
-   getProjectGallary()
-   {
+   getProjectGallary() {
       return this.http.get<Response>("assets/data/project-gallary.json").pipe(map(response => response.data));
    }
 
@@ -50,24 +46,21 @@ export class ChkService {
    /*
     * Get blog column2.
     */
-   getBlogColumn2()
-   {
+   getBlogColumn2() {
       return this.http.get<Response>("assets/data/blog-column2.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog column3.
     */
-   getBlogColumn3()
-   {
+   getBlogColumn3() {
       return this.http.get<Response>("assets/data/blog-column3.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog listing sidebar.
     */
-   getBlogListingSideBar()
-   {
+   getBlogListingSideBar() {
       return this.http.get<Response>("assets/data/blog-listing-sidebar.json").pipe(map(response => response.data));
    }
 
@@ -75,257 +68,231 @@ export class ChkService {
    /*
     * Get blog masonary2
     */
-   getBlogMasonary2()
-   {
+   getBlogMasonary2() {
       return this.http.get<Response>("assets/data/blog-masonary2.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog masonary3
     */
-   getBlogMasonary3()
-   {
+   getBlogMasonary3() {
       return this.http.get<Response>("assets/data/blog-masonary3.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog no sidebar
     */
-   getBlogNoSideBar()
-   {
+   getBlogNoSideBar() {
       return this.http.get<Response>("assets/data/blog-no-sidebar.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog sidebar
     */
-   getBlogSidebar()
-   {
+   getBlogSidebar() {
       return this.http.get<Response>("assets/data/blog-sidebar.json").pipe(map(response => response.data));
    }
 
    /*
     * Get blog sidebar
     */
-   getPopularPosts()
-   {
+   getPopularPosts() {
       return this.http.get<Response>("assets/data/popular-posts.json").pipe(map(response => response.data));
    }
 
    /*
     * Get instagram images
     */
-   getInstagramImages()
-   {
+   getInstagramImages() {
       return this.http.get<Response>("assets/data/instagram.json").pipe(map(response => response.data));
    }
 
    /*
     * Get featured post
     */
-   getFeaturedPost()
-   {
+   getFeaturedPost() {
       return this.http.get<Response>("assets/data/featured.json").pipe(map(response => response.data));
    }
 
    /*
     * Get testimonial
     */
-   getTestimonial()
-   {
+   getTestimonial() {
       return this.http.get<Response>("assets/data/testimonial.json").pipe(map(response => response.data));
    }
 
    /*
     * Get portfolio-v1.
     */
-   getPortfolioV1()
-   {
-    return this.http.get<Response>("assets/data/portfolio-v1.json").pipe(map(response => response.data));
+   getPortfolioV1() {
+      return this.http.get<Response>("assets/data/portfolio-v1.json").pipe(map(response => response.data));
    }
 
    /*
     * Get portfolio-v2.
     */
-   getPortfolioV2()
-   {
+   getPortfolioV2() {
       return this.http.get<Response>("assets/data/portfolio-v2.json").pipe(map(response => response.data));
    }
 
    /*
     * Get portfolio-v3.
     */
-   getPortfolioV3()
-   {
+   getPortfolioV3() {
       return this.http.get<Response>("assets/data/portfolio-v3.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the content of pricing page.
    */
-   getPricingPageContent()
-   {
-    return this.http.get<Response>("assets/data/pricing.json").pipe(map(response => response.data));
+   getPricingPageContent() {
+      return this.http.get<Response>("assets/data/pricing.json").pipe(map(response => response.data));
    }
 
 
    /*
    * Get the content of features page.
    */
-   getFeaturesContent()
-   {
-    return this.http.get<Response>("assets/data/features.json").pipe(map(response => response.data));
+   getFeaturesContent() {
+      return this.http.get<Response>("assets/data/features.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the categories.
    */
-   getcategories()
-   {
-    return this.http.get<Response>("assets/data/categories.json").pipe(map(response => response.data));
+   getcategories() {
+      return this.http.get<Response>("assets/data/categories.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the content of contact page.
    */
-   getContactContent()
-   {
-    return this.http.get<Response>("assets/data/contact.json").pipe(map(response => response.data));
+   getContactContent() {
+      return this.http.get<Response>("assets/data/contact.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the content of search page.
    */
-   getSearchContent()
-   {
-    return this.http.get<Response>("assets/data/search.json").pipe(map(response => response.data));
+   getSearchContent() {
+      return this.http.get<Response>("assets/data/search.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the team.
    */
-   getTeam()
-   {
+   getTeam() {
       return this.http.get<Response>("assets/data/team.json").pipe(map(response => response.data));
    }
 
    /*
     * Get about.
     */
-   getAbout()
-   {
+   getAbout() {
       return this.http.get<Response>("assets/data/about.json").pipe(map(response => response.data));
    }
 
    /*
    * Get the content of support page.
    */
-   getSupportContent()
-   {
-    return this.http.get<Response>("assets/data/support.json").pipe(map(response => response.data));
+   getSupportContent() {
+      return this.http.get<Response>("assets/data/support.json").pipe(map(response => response.data));
    }
 
    /*
     * Get home testimonial
     */
-   getHomeTestimonial()
-   {
+   getHomeTestimonial() {
       return this.http.get<Response>("assets/data/home-testimonial.json").pipe(map(response => response.data));
    }
 
    /*
     * Get footer logo list
     */
-   getFooterLogoList()
-   {
+   getFooterLogoList() {
       return this.http.get<Response>("assets/data/footer-logo.json").pipe(map(response => response.data));
    }
 
-  /*
-   * Get the social share list
-   */
-   getSocialShare()
-   {
-    return this.http.get<Response>("assets/data/social-share.json").pipe(map(response => response.data));
+   /*
+    * Get the social share list
+    */
+   getSocialShare() {
+      return this.http.get<Response>("assets/data/social-share.json").pipe(map(response => response.data));
    }
 
-  /*
-   * Get the recent comments 
-   */
-   getRecentComments()
-   {
-    return this.http.get<Response>("assets/data/recent-comments.json").pipe(map(response => response.data));
+   /*
+    * Get the recent comments 
+    */
+   getRecentComments() {
+      return this.http.get<Response>("assets/data/recent-comments.json").pipe(map(response => response.data));
    }
 
    /*
     * Get contact us widgets
     */
-   getContactUsWidgets()
-   {
+   getContactUsWidgets() {
       return this.http.get<Response>("assets/data/contact-us-widgets.json").pipe(map(response => response.data));
    }
 
    /*
     * Get cart
     */
-   getCart()
-   {
+   getCart() {
       return this.http.get<Response>("assets/data/cart.json").pipe(map(response => response.data));
    }
 
    /*
     * Get tweets
     */
-   getTweets()
-   {
+   getTweets() {
       return this.http.get<Response>("assets/data/latest-tweets.json").pipe(map(response => response.data));
    }
 
    /*
     * Get tags
     */
-   getTags()
-   {
+   getTags() {
       return this.http.get<Response>("assets/data/tags.json").pipe(map(response => response.data));
    }
 
    /*
     * Get archive
     */
-   getArchive()
-   {
+   getArchive() {
       return this.http.get<Response>("assets/data/archive.json").pipe(map(response => response.data));
    }
 
    /*
     * Get about the author
     */
-   getAboutAuthor()
-   {
+   getAboutAuthor() {
       return this.http.get<Response>("assets/data/about-author.json").pipe(map(response => response.data));
    }
 
    /*
     * Get about the author
     */
-   getTabContent()
-   {
+   getTabContent() {
       return this.http.get<Response>("assets/data/tab-content.json").pipe(map(response => response.data));
    }
 
    /*
     * Get products list
     */
-   getProductsList()
-   {
+   getProductsList() {
       return this.http.get<Response>("assets/data/products-list.json").pipe(map(response => response.data));
+   }
+   /*
+       * Get a single product
+       */
+   getASingleProduct(productId: string) {
+      return this.http.get<Response>("assets/data/products-list.json").pipe(map(response => response.data.filter(product => product.id === productId)));
    }
 
    /*
     * Get related products list
     */
-   getRelatedProducts()
-   {
+   getRelatedProducts() {
       return this.http.get<Response>("assets/data/related-products.json").pipe(map(response => response.data));
    }
 

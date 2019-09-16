@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../service/chk.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'angly-productlist',
@@ -16,7 +17,8 @@ export class ProductlistComponent implements OnInit {
 
   constructor(
     private pageTitleService: PageTitleService,
-    private service: ChkService
+    private service: ChkService,
+    public router: Router
   ) {
     /* Page title */
     this.pageTitleService.setTitle(' Happy Shopping ');
@@ -51,6 +53,11 @@ export class ProductlistComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.categories);
+  }
+
+  onClick(page: string) {
+    this.router.navigate([`amazon/products/${page}`]);
   }
 }
+
+

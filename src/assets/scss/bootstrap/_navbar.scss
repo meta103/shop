@@ -40,7 +40,9 @@
 // Used for brand, project, or site names.
 
 .navbar-brand {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
   margin-right: $navbar-padding-x;

@@ -48,13 +48,13 @@ export const AppRoutes: Routes = [
         component: sidebarWidgetsComponent
       },
       {
-        path: '',
-        loadChildren: () =>
-          import('./session/session.module').then(m => m.SessionModule)
-      },
-      {
         path: 'about',
         component: AboutComponent
+      },
+      {
+        path: '**',
+        loadChildren: () =>
+          import('./session/session.module').then(m => m.SessionModule)
       }
     ]
   }

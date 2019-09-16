@@ -6,9 +6,9 @@ import { NotFoundComponent } from './notFound/notFound.component';
 
 export const SessionRoutes: Routes = [{
   path: '',
-  redirectTo: 'login',
+  redirectTo: 'maintenance',
   pathMatch: 'full'
-},{
+}, {
   path: '',
   children: [{
     path: 'thank-you',
@@ -19,7 +19,7 @@ export const SessionRoutes: Routes = [{
     component: MaintenanceComponent
   },
   {
-    path: 'not-found',
+    path: '**',
     component: NotFoundComponent
   }]
 }];

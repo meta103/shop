@@ -1,4 +1,3 @@
-<div class="rtl-layout" (click)="addToggleClass()"><a href="javascript:void(0);">RTL</a></div>
 <div #scrollContainer class="over-scroll" (scroll)="onScroll($event)" [ngClass]="{'fixed-header' : fixedHeaderClass}">
     <header angly-header></header>
 
@@ -29,7 +28,7 @@
 
     <!-- All page title get -->
     <div class="section-heading section-gap bg-light"
-        *ngIf="router?.url != '/amazon' && router?.url != '/blog-sidebar' && router?.url != '/blog-no-sidebar' && router?.url != '/login' && router?.url != '/sign-up' && router?.url != '/thank-you' && router?.url != '/not-found' && router?.url != '/maintenance' && router?.url != '/blog-detail' ">
+        *ngIf="router?.url === '/amazon/products' || router?.url === '/blog' || router?.url === '/about' ">
         <div class="text-center">
             <div class="container">
                 <h1 class="mb-3">{{headerTitle}}</h1>
