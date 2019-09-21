@@ -6,8 +6,7 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
-import { SupportComponent } from './support/support.component';
-import { sidebarWidgetsComponent } from './sidebarWidgets/sidebarWidgets.component';
+import { faqComponent } from './faq/faq.component';
 
 export const AppRoutes: Routes = [
   {
@@ -40,12 +39,8 @@ export const AppRoutes: Routes = [
         component: AboutComponent
       },
       {
-        path: 'support',
-        component: SupportComponent
-      },
-      {
-        path: 'sidebar-widgets',
-        component: sidebarWidgetsComponent
+        path: 'faq',
+        component: faqComponent
       },
       {
         path: 'about',

@@ -3,29 +3,32 @@ import { PageTitleService } from '../core/page-title/page-title.service';
 import { ChkService } from '../service/chk.service';
 
 @Component({
-  selector: 'angly-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  selector: 'mfd-faq',
+  templateUrl: './faq.component.html',
+  styleUrls: ['./faq.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class faqComponent implements OnInit {
 
   /* Variables */
-  contact: any;
-
-  lat: number = 30.67995;
-  lng: number = 76.72211;
+  supportContent: any;
 
   constructor(private pageTitleService: PageTitleService, private service: ChkService) {
 
     /* Page title */
-    this.pageTitleService.setTitle(" Lets Get In Touch ");
+    this.pageTitleService.setTitle(" Support ");
 
     /* Page subTitle */
     this.pageTitleService.setSubTitle(" Our latest news and learning articles. ");
 
+    this.service.getFAQContent().
+      subscribe(response => { this.supportContent = response },
+        err => console.log(err),
+        () => this.supportContent
+      );
   }
 
   ngOnInit() {
   }
+
 
 }

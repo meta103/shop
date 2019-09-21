@@ -37,12 +37,6 @@ export class MainComponent implements OnInit {
 		this.pageTitleService.subTitle.subscribe((val: string) => {
 			this.headerSubTitle = val;
 		});
-
-		this.service.getFeaturedPost().
-			subscribe(response => { this.featuredPost = response },
-				err => console.log(err),
-				() => this.featuredPost
-			);
 	}
 
 	ngOnInit() { }

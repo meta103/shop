@@ -24,7 +24,7 @@ export class ProductDetailComponent implements OnInit {
 		this.pageTitleService.setSubTitle(" 25% Off and Free global delivery for all products ");
 
 
-		this.service.getRelatedProducts().
+		this.service.getProductsList().
 			subscribe(response => { this.relatedProducts = response },
 				err => console.log(err),
 				() => this.relatedProducts

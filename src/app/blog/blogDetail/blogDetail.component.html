@@ -13,26 +13,26 @@
 	<div class="blog-detail section-gap pt-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-7 my-4 image-container"><img class="img-fluid border-rad" alt="blog-detail"
+				<div class="col-xl-11 my-4 image-container"><img class="img-fluid border-rad" alt="blog-detail"
 						[src]="post[0].image_path"></div>
 				<div class="col-sm-12 col-md-12 col-lg-12 mb-3">
 					<div class="thumb-content mb-5 blog-content-p">
 
 						<div class="row">
-							<div class="col-xl-5">
+							<div class="col-xl-11">
 								<p *ngFor="let paragraph of post[0].content">{{paragraph}}</p>
 							</div>
 						</div>
 
 					</div>
 					<div class="row mb-4">
-						<div class="col-sm-12 col-md-12 col-lg-4">
+						<div class="col-xl-11">
 							<div class="blog-sidebar">
 								<angly-tags2 [tags]="post[0].tags"></angly-tags2>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 blog-share">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-11 blog-share">
 						<div class="social-icons" angly-socials [socials]="socialDetails" [socialsClasses]="socialsClasses"></div>
 					</div>
 				</div>
