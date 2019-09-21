@@ -6,18 +6,13 @@ import { BlogDetailComponent } from './blogDetail/blogDetail.component';
 export const BlogsRoutes: Routes = [
   {
     path: '',
-    redirectTo: 'blog',
-    pathMatch: 'full'
-  },
-  {
-    path: '',
     children: [
       {
         path: '',
         component: BlogNoSidebarComponent
       },
       {
-        path: 'blog-detail',
+        path: ':id',
         component: BlogDetailComponent
       }
     ]

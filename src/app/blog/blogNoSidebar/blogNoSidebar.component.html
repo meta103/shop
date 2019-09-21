@@ -1,41 +1,38 @@
 <!-- Blog Section -->
 <div class="blog-wrapper section-gap">
    <div class="container">
-      <div class="blog-alternate mb-5" *ngFor="let noSideBar of blogNoSidebar">
+      <div class="blog-alternate mb-5" *ngFor="let post of posts$ | async">
          <div class="row">
             <div class="col-sm-12 col-md-6">
                <div class="overlay-wrap">
-                  <img [src]="noSideBar?.image_path" width="370" height="300" alt="blog-img" class="img-fluid w-100 border-rad shadow-md" />
+                  <img [src]="post?.image_path" width="370" height="300" alt="blog-img"
+                     class="img-fluid w-100 border-rad shadow-md" />
                   <div class="card-img-overlay primary-tp-layer pos-center text-center">
                      <div class="center-holder">
-                        <a href="javascript:void(0)" class="ih-fade-right"><i class="fa fa-arrow-right fa-3x fa-inverse"></i></a>
+                        <a (click)="onClick(post.id)" class="ih-fade-right"><i
+                              class="fa fa-arrow-right fa-3x fa-inverse"></i></a>
                      </div>
                   </div>
                </div>
             </div>
             <div class="col-sm-12 col-md-6">
                <div class="blog-content py-4">
-                  <h4 class="mb-3"><a href="javascript:void(0);">{{noSideBar?.heading}}</a></h4>
+                  <h4 class="mb-3"><a (click)="onClick(post.id)">{{post?.title}}</a></h4>
                   <div class="blog-meta mb-2">
-                     <a href="javascript:void(0);" class="mr-3 text-muted">
-                        <i class="fa text-primary {{noSideBar?.user_icon}} mr-2 font-lg"></i>
-                        <span class="font-sm"> {{noSideBar?.user_name}}</span>
-                     </a>
-                     <a href="javascript:void(0);" class="text-muted">
+                     <div class="mr-3 text-muted">
+                        <i class="fa text-primary {{post?.user_icon}} mr-2 font-lg"></i>
+                        <span class="font-sm"> {{post?.user_name}}</span>
+                     </div>
+                     <div class="text-muted">
                         <i class="text-primary fa fa-calendar-o mr-2 font-lg"></i>
-                        <span class="font-sm">{{noSideBar?.date*1000 | date }}</span>
-                     </a>
+                        <span class="font-sm">{{post?.date*1000 | date }}</span>
+                     </div>
                   </div>
-                  <p class="mb-3">{{noSideBar?.content}}</p>
-                  <a href="javascript:void(0);" class="{{noSideBar?.read_more_bgcolor}}  btn btn-outline-secondary btn-sm btn-chk-dark"> READ MORE </a>
+                  <p class="mb-3">{{post?.short_description}}</p>
+                  <a (click)="onClick(post.id)" class="{{post?.read_more_bgcolor}}  btn btn-sm"> READ MORE </a>
                </div>
             </div>
          </div>
       </div>
-   </div>
-</div>
-<div class="load-more px-4 pb-5 text-center">
-   <div class="container">
-      <a href="javascript:void(0)" class="text-muted font-lg"> <i class="fa fa-refresh mr-3 fa-spin"></i>LOAD MORE </a>
    </div>
 </div>

@@ -3,6 +3,7 @@
  * Used in another components.
  */
 import { Component, OnInit, Input, Output, EventEmitter  } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: '[angly-postGrid]',
@@ -16,9 +17,13 @@ export class PostGridComponent implements OnInit {
    */
   @Input() postGridContent:any;
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
+
+  onClick(page: string) {
+		this.router.navigate([`blog/${page}`]);
+	}
 
 }

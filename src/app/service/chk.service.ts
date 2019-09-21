@@ -36,6 +36,13 @@ export class ChkService {
    }
 
    /*
+    * Get a single post
+    */
+   getASinglePosts(postId: string) {
+      return this.http.get<Response>("assets/data/posts.json").pipe(map(response => response.data.filter(post => post.id === postId)));
+   }
+
+   /*
     * Get project gallary
     */
    getProjectGallary() {

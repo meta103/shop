@@ -15,10 +15,10 @@
                     </h2>
                     <h4 class="text-white">La mejor selección de productos de amazon, desde la experiencia de un usuario
                         como tú</h4>
-                    <a class="btn btn-lg btn-secondary mr-3 mb-3 px-4 py-2" target="_blank" href="javascript:void(0);">
+                    <a class="btn btn-lg btn-secondary mr-3 mb-3 px-4 py-2" routerLink="/amazon/products">
                         Tienda
                     </a>
-                    <a class="btn btn-lg btn-outline-ligth mb-3 px-4 py-2 inverse" href="javascript:void(0);">
+                    <a class="btn btn-lg btn-outline-ligth mb-3 px-4 py-2 inverse" routerLink="/about">
                         Saber más
                     </a>
                 </div>
@@ -28,7 +28,7 @@
 
     <!-- All page title get -->
     <div class="section-heading section-gap bg-light"
-        *ngIf="router?.url === '/amazon/products' || router?.url === '/blog' || router?.url === '/about' ">
+        *ngIf="router?.url === '/amazon/products' || router?.url === '/blog' || router?.url === '/about'">
         <div class="text-center">
             <div class="container">
                 <h1 class="mb-3">{{headerTitle}}</h1>
@@ -39,7 +39,7 @@
 
     <!-- Header of blog sidebar and blog no sidebar page -->
     <div class="card text-white text-center border-0"
-        *ngIf="router?.url == '/blog-sidebar' || router?.url == '/blog-no-sidebar' || router?.url == '/blog-detail' ">
+        *ngIf="router?.url == '/blog-sidebar' || router?.url == '/blog-no-sidebar'">
         <div class="blog-detail-thumb" style="background-image: url('assets/img/blog-detail.jpg')"></div>
         <div class="card-img-overlay black-tp-layer  pos-center py-6">
             <div class="center-holder">

@@ -3,6 +3,7 @@ import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../service/chk.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { Observable } from 'rxjs';
 
 @Component({
 	selector: 'angly-product-detail',
@@ -12,7 +13,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 export class ProductDetailComponent implements OnInit {
 	/* Variables */
 	productId: string;
-	$productDetails: any;
+	productDetails$: Observable<string>;
 	relatedProducts: any;
 
 	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router) {
@@ -32,7 +33,7 @@ export class ProductDetailComponent implements OnInit {
 
 	ngOnInit() {
 		this.productId = this.route.snapshot.paramMap.get('id');
-		this.$productDetails = this.service.getASingleProduct(this.productId);
+		this.productDetails$ = this.service.getASingleProduct(this.productId);
 
 	}
 
