@@ -1,29 +1,46 @@
-
 {
-	"data":[
+   "data": [
       {
-         "image":"assets/img/1.jpg",
+         "id": "1",
+         "image": "assets/img/1.jpg",
          "title": "Long Dress",
-         "description":"Lorem Ipsum has been the industry's standard",
+         "description": "Lorem Ipsum has been the industry's standard",
          "price": 250
       },
       {
-         "image":"assets/img/2.jpg",
+         "id": "2",
+         "image": "assets/img/2.jpg",
          "title": "Fleece Jacket",
-         "description":"Lorem Ipsum has been the industry's standard",
-         "price": 250
+         "description": "Lorem Ipsum has been the industry's standard",
+         "price": 350
       },
       {
-         "image":"assets/img/3.jpg",
+         "id": "3",
+         "image": "assets/img/3.jpg",
          "title": "Slick Top",
-         "description":"Lorem Ipsum has been the industry's standard",
-         "price": 250
+         "description": "Lorem Ipsum has been the industry's standard",
+         "price": 450
       },
       {
-         "image":"assets/img/4.jpg",
+         "id": "4",
+         "image": "assets/img/4.jpg",
          "title": "Zipped Top",
-         "description":"Lorem Ipsum has been the industry's standard",
-         "price": 250
+         "description": "Lorem Ipsum has been the industry's standard",
+         "price": 550
+      },
+      {
+         "id": "5",
+         "image": "assets/img/5.jpg",
+         "title": "Stone Necklace",
+         "description": "Lorem Ipsum has been the industry's standard",
+         "price": 650
+      },
+      {
+         "id": "6",
+         "image": "assets/img/3.jpg",
+         "title": "Simple Top",
+         "description": "Lorem Ipsum has been the industry's standard",
+         "price": 750
       }
-	]
+   ]
 }

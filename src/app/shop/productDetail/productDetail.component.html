@@ -5,8 +5,10 @@
 				<div class="row">
 					<div class="col-sm-8 col-md-8 m-md-b">
 						<div class="feature-box-thumb">
-							<img [src]="product[0].image" class="img-fluid card-shadow" alt="product image" width="380"
-								height="380" />
+							<a (click)="openModal(modal1)">
+								<img [src]="product[0].image" class="img-fluid card-shadow" alt="product image" width="380"
+									height="380" />
+							</a>
 						</div><!-- feature box thumb closed -->
 					</div>
 					<div class="col-sm-4 col-md-4">
@@ -17,12 +19,12 @@
 								</a>
 							</li>
 							<li class="mb-3">
-								<a href="javascript:void(0);">
+								<a (click)="openModal(modal3)">
 									<img [src]="product[0].image" class="img-fluid" alt="product image" width="100" height="100" />
 								</a>
 							</li>
 							<li class="mb-3">
-								<a href="javascript:void(0);">
+								<a (click)="openModal(modal4)">
 									<img [src]="product[0].image" class="img-fluid" alt="product image" width="100" height="100" />
 								</a>
 							</li>
@@ -79,30 +81,26 @@
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-3" *ngFor="let product of relatedProducts">
 					<div class="card border-0 mb-4">
-						<div class="overlay-wrap mb-4 card-shadow border-rad">
-							<img class="img-fluid border-rad w-100" [src]="product.image" alt="Card image cap" width="280"
-								height="260" />
-							<div class="cart-icon">
-								<ul class="list-unstyled">
-									<li>
-										<a routerLink="/product-detail"
-											class="square-40 bg-white rounded-circle text-dark mb-2 card-shadow">
-											<i class="fa fa-heart text-danger"></i>
-										</a>
-									</li>
-									<li>
-										<a routerLink="/product-detail" class="square-40 bg-white rounded-circle text-dark card-shadow">
-											<i class="fa fa-search"></i>
-										</a>
-									</li>
-								</ul>
+						<a (click)="onClick(product.id)">
+							<div class="overlay-wrap mb-4 card-shadow border-rad">
+								<img class="img-fluid border-rad w-100" [src]="product.image" alt="Card image cap" width="280"
+									height="260" />
+								<div class="cart-icon">
+									<ul class="list-unstyled">
+										<li>
+											<div class="square-40 bg-white rounded-circle text-dark card-shadow">
+												<i class="fa fa-search"></i>
+											</div>
+										</li>
+									</ul>
+								</div>
 							</div>
-						</div>
-						<div class="card-body p-0">
-							<h5 class="text-capitalize mb-3">{{product.title}}</h5>
-							<p>{{product.description}}</p>
-							<p class="text-primary">{{product.price | currency: 'USD' : true}}</p>
-						</div>
+							<div class="card-body p-0">
+								<h5 class="text-capitalize mb-3">{{product.title}}</h5>
+								<p>{{product.description}}</p>
+								<p class="text-primary">{{product.price | currency: 'EUR' : true}}</p>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -202,6 +200,16 @@
 				</div>
 			</div><!-- accordions closed -->
 		</div>
+		<!-- Modals (To be refactored!!) -->
+		<ng-template #modal1 let-modal>
+			<div class="modal-body">
+				<img [src]="product[0].image" class="img-fluid" alt="product image" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-light" (click)="modal.close('Close click')">Cerrar</button>
+			</div>
+			<p>MODAL 1</p>
+		</ng-template>
 		<ng-template #modal2 let-modal>
 			<div class="modal-body">
 				<img [src]="product[0].image" class="img-fluid" alt="product image" />
@@ -209,8 +217,26 @@
 			<div class="modal-footer">
 				<button type="button" class="btn btn-light" (click)="modal.close('Close click')">Cerrar</button>
 			</div>
+			<p>MODAL 2</p>
 		</ng-template>
-
+		<ng-template #modal3 let-modal>
+			<div class="modal-body">
+				<img [src]="product[0].image" class="img-fluid" alt="product image" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-light" (click)="modal.close('Close click')">Cerrar</button>
+			</div>
+			<p>MODAL 3</p>
+		</ng-template>
+		<ng-template #modal4 let-modal>
+			<div class="modal-body">
+				<img [src]="product[0].image" class="img-fluid" alt="product image" />
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-light" (click)="modal.close('Close click')">Cerrar</button>
+			</div>
+			<p>MODAL 4</p>
+		</ng-template>
 	</div><!-- container closed -->
 
 </div><!-- product wrapper closed -->

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../service/chk.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -15,7 +15,7 @@ export class ProductDetailComponent implements OnInit {
 	$productDetails: any;
 	relatedProducts: any;
 
-	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal) {
+	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router) {
 		/* Page title */
 		this.pageTitleService.setTitle(" Product Detail ");
 
@@ -40,5 +40,8 @@ export class ProductDetailComponent implements OnInit {
 		this.modalService.open(content, { centered: true });
 	}
 
-
+	onClick(page: string) {
+		this.router.navigate([`amazon/products/${page}`]);
+		this.ngOnInit();
+	}
 }
