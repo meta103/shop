@@ -3,6 +3,7 @@ import { ChkService } from '../../service/chk.service';
 import { Observable } from 'rxjs';
 import { Router } from '@angular/router';
 import { PageTitleService } from '../../core/page-title/page-title.service';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
    selector: 'angly-blogNoSidebar',
@@ -15,7 +16,7 @@ export class BlogNoSidebarComponent implements OnInit {
    /* Variables */
    posts$: Observable<any>;
 
-   constructor(private service: ChkService, public router: Router, private pageTitleService: PageTitleService) {
+   constructor(private service: ChkService, public router: Router, private pageTitleService: PageTitleService, private db: AngularFireDatabase) {
       /* Page title */
       this.pageTitleService.setTitle(" Blog ");
 
@@ -24,7 +25,7 @@ export class BlogNoSidebarComponent implements OnInit {
    }
 
    ngOnInit() {
-      this.posts$ = this.service.getPosts();
+      this.posts$ = this.db.list('/posts').valueChanges();
    }
 
    onClick(page: string) {

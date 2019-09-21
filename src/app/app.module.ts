@@ -29,6 +29,11 @@ import { AboutComponent } from './about/about.component';
 import { faqComponent } from './faq/faq.component';
 import { Footer2Component } from './footer2/footer2.component';
 
+// Firebase
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { environment } from '../environments/environment';
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -44,6 +49,8 @@ import { Footer2Component } from './footer2/footer2.component';
    ],
    imports: [
       BrowserModule,
+      AngularFireModule.initializeApp(environment.firebaseConfig, 'misfavoritosde'),
+      AngularFireDatabaseModule,
       BrowserAnimationsModule,
       FormsModule,
       ReactiveFormsModule,

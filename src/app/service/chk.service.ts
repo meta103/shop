@@ -24,7 +24,7 @@ export class ChkService {
     * Get posts
     */
    getPosts() {
-      return this.http.get<Response>("assets/data/posts.json").pipe(map(response => response.data));
+      return this.http.get<Response>("https://misfavoritosde1-0.firebaseio.com/posts").pipe(map(response => response.data));
    }
 
    /*

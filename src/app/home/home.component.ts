@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChkService } from '../service/chk.service';
+import { AngularFireDatabase } from 'angularfire2/database';
 declare var $: any;
 
 @Component({
@@ -21,7 +22,7 @@ export class HomeComponent implements OnInit {
   testimonial: any;
   footerLogo: any;
 
-  constructor(private service: ChkService) {
+  constructor(private service: ChkService, private db: AngularFireDatabase) {
     this.service.getServices().subscribe(
       response => {
         this.services = response;
@@ -30,7 +31,7 @@ export class HomeComponent implements OnInit {
       () => this.services
     );
 
-    this.service.getPosts().subscribe(
+    this.db.list('/posts').valueChanges().subscribe(
       response => {
         this.posts = response;
       },
@@ -47,7 +48,7 @@ export class HomeComponent implements OnInit {
     );
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   subscribeFormClasses: any = {
     rowClass: 'row',

@@ -1,5 +1,5 @@
 {
-  "name": "angly",
+  "name": "misfavoritosde",
   "version": "3.0.0",
   "license": "MIT",
   "scripts": {
@@ -25,9 +25,11 @@
     "@angular/router": "^8.0.0",
     "@fancyapps/fancybox": "^3.5.7",
     "@ng-bootstrap/ng-bootstrap": "^5.1.1",
+    "angularfire2": "^5.2.1",
     "bootstrap": "^4.1.3",
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.5.7",
+    "firebase": "^6.6.2",
     "font-awesome": "^4.7.0",
     "hammerjs": "2.0.8",
     "intl": "^1.2.5",

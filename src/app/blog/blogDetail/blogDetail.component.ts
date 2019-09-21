@@ -1,7 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Query } from '@angular/core';
 import { ChkService } from '../../service/chk.service';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
+import { AngularFireDatabase } from 'angularfire2/database';
+import { filter } from 'rxjs/operators';
+import { map } from 'rxjs-compat/operator/map';
 
 @Component({
   selector: 'angly-blogDetail',
@@ -28,11 +31,11 @@ export class BlogDetailComponent implements OnInit {
    */
   socialsClasses: any = { ulClass: "", liClass: "", linkClass: "" }
 
-  constructor(private service: ChkService, private route: ActivatedRoute) { }
+  constructor(private service: ChkService, private route: ActivatedRoute, private db: AngularFireDatabase) { }
 
   ngOnInit() {
     this.postId = this.route.snapshot.paramMap.get('id');
-    this.postDetail$ = this.service.getASinglePosts(this.postId);
+    this.postDetail$ = this.db.list('/posts', ref => ref.orderByChild('id').equalTo(this.postId)).valueChanges();
   }
 
 }
