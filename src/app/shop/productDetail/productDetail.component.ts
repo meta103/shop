@@ -4,6 +4,7 @@ import { ChkService } from '../../service/chk.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Observable } from 'rxjs';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
 	selector: 'angly-product-detail',
@@ -13,10 +14,10 @@ import { Observable } from 'rxjs';
 export class ProductDetailComponent implements OnInit {
 	/* Variables */
 	productId: string;
-	productDetails$: Observable<string>;
+	productDetails$: Observable<any>;
 	relatedProducts: any;
 
-	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router) {
+	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router, private db: AngularFireDatabase) {
 		/* Page title */
 		this.pageTitleService.setTitle(" Product Detail ");
 
@@ -24,7 +25,7 @@ export class ProductDetailComponent implements OnInit {
 		this.pageTitleService.setSubTitle(" 25% Off and Free global delivery for all products ");
 
 
-		this.service.getProductsList().
+		this.db.list('/products').valueChanges().
 			subscribe(response => { this.relatedProducts = response },
 				err => console.log(err),
 				() => this.relatedProducts
@@ -33,7 +34,7 @@ export class ProductDetailComponent implements OnInit {
 
 	ngOnInit() {
 		this.productId = this.route.snapshot.paramMap.get('id');
-		this.productDetails$ = this.service.getASingleProduct(this.productId);
+		this.productDetails$ = this.db.list('/products', ref => ref.orderByChild('id').equalTo(this.productId)).valueChanges();
 
 	}
 

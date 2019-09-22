@@ -1,0 +1,516 @@
+{
+   "products": [
+      {
+         "id": "iphone-xr",
+         "image": "assets/img/1.jpg",
+         "title": "Long Dress",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 250
+      },
+      {
+         "id": "macbook-pro",
+         "image": "assets/img/2.jpg",
+         "title": "Fleece Jacket",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 350
+      },
+      {
+         "id": "3",
+         "image": "assets/img/3.jpg",
+         "title": "Slick Top",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 450
+      },
+      {
+         "id": "4",
+         "image": "assets/img/4.jpg",
+         "title": "Zipped Top",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 550
+      },
+      {
+         "id": "5",
+         "image": "assets/img/5.jpg",
+         "title": "Stone Necklace",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 650
+      },
+      {
+         "id": "6",
+         "image": "assets/img/3.jpg",
+         "title": "Simple Top",
+         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "longDescription": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
+         "price": 750
+      }
+   ],
+   "posts": [
+      {
+         "id": "The-new-version-is-now-live-1",
+         "image_path": "assets/img/1-blog.jpg",
+         "title": "The new version is now live! 1",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      },
+      {
+         "id": "The-new-version-is-now-live-2",
+         "image_path": "assets/img/2-blog.jpg",
+         "title": "The new version is now live! 2",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      },
+      {
+         "id": "The-new-version-is-now-live-3",
+         "image_path": "assets/img/3-blog.jpg",
+         "title": "The new version is now live! 3",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      },
+      {
+         "id": "The-new-version-is-now-live-4",
+         "image_path": "assets/img/4-blog.jpg",
+         "title": "The new version is now live! 4",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      },
+      {
+         "id": "The-new-version-is-now-live-5",
+         "image_path": "assets/img/5-blog.jpg",
+         "title": "The new version is now live! 5",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      },
+      {
+         "id": "The-new-version-is-now-live-6",
+         "image_path": "assets/img/6-blog.jpg",
+         "title": "The new version is now live! 6",
+         "date": 1500163200,
+         "user_name": "Admin",
+         "user_icon": "fa-user-circle-o",
+         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "content": [
+            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
+            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
+            "Many desktop publishing packages and web page editors now use Lorem",
+            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
+            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
+            ""
+         ],
+         "read_more_url": "javascript:void(0);",
+         "read_more_bgcolor": "bg-primary",
+         "tags": [
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Angular2"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "HTML"
+            },
+            {
+               "btnBgClass": "btn-dark",
+               "value": "SCSS"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Garden"
+            },
+            {
+               "btnBgClass": "btn-danger",
+               "value": "Photography"
+            },
+            {
+               "btnBgClass": "bg-yellow",
+               "value": "City"
+            },
+            {
+               "btnBgClass": "btn-info",
+               "value": "Admin"
+            },
+            {
+               "btnBgClass": "bg-green",
+               "value": "Wordpress"
+            },
+            {
+               "btnBgClass": "btn-warning",
+               "value": "Fashion"
+            },
+            {
+               "btnBgClass": "btn-success",
+               "value": "Graphics"
+            },
+            {
+               "btnBgClass": "btn-primary",
+               "value": "Love"
+            }
+         ]
+      }
+   ]
+}

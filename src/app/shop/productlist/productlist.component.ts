@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { PageTitleService } from '../../core/page-title/page-title.service';
 import { ChkService } from '../../service/chk.service';
 import { Router } from '@angular/router';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
   selector: 'angly-productlist',
@@ -17,7 +18,8 @@ export class ProductlistComponent implements OnInit {
   constructor(
     private pageTitleService: PageTitleService,
     private service: ChkService,
-    public router: Router
+    public router: Router,
+    private db: AngularFireDatabase
   ) {
     /* Page title */
     this.pageTitleService.setTitle(' Happy Shopping ');
@@ -27,7 +29,7 @@ export class ProductlistComponent implements OnInit {
       ' 25% Off and Free global delivery for all products '
     );
 
-    this.service.getProductsList().subscribe(
+    this.db.list('/products').valueChanges().subscribe(
       response => {
         this.productsList = response;
       },

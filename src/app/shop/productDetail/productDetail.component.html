@@ -37,7 +37,7 @@
 					<h2 class="text-capitalize font-3x mb-3">{{product[0].title}}</h2>
 					<h4 class="font-26 text-primary">{{product[0].price | currency: 'EUR' : true}}</h4>
 				</div>
-				<p>{{product[0].description}}</p>
+				<p>{{product[0].shortDescription}}</p>
 				<div class="d-flex justify-content-between">
 					<div class="align-content-start w-50">
 						<a routerLink="/product-cart" class="btn btn-primary btn-lg btn-block">Add To Cart</a>
@@ -56,18 +56,10 @@
 			</ul>
 			<div class="tab-content">
 				<div class="tab-pane fade active show" id="tab-1" aria-expanded="true">
-					<p>Super charge your walk! Easy portable effortless light weight! Swing Weights were designed to be the best,
-						most effective walking weight on the market.Use Swing Weights as you walk for a low-impact, fully body
-						workout.</p>
-					<p>The dumbbell material : outside is rubber,inside is cast iron . the weigth is enough .5kg is 5kg ,10kg is
-						10kg .we also can make client's logo on the cover.</p>
+					<p *ngFor="let paragraph of product[0].longDescription">{{paragraph}}</p>
 				</div>
 				<div class="tab-pane fade" id="tab-2" aria-expanded="false">
-					<p> - Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial-
-						Plastic; Strap- Flexible &amp; durable
-						- Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band
-						- Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer
-					</p>
+					<p>{{product[0].specifications}}</p>
 				</div>
 				<div class="tab-pane fade" id="tab-3" aria-expanded="false">
 					<p>If you are willing to buy this watch then just order it right away without any second thought. This is a
