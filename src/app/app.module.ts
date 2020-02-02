@@ -35,6 +35,10 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { EventLoggerService } from './service/event-logger.service';
 import { AngularFireAnalytics } from '@angular/fire/analytics';
+
+import * as firebase from "firebase/app";
+firebase.initializeApp(environment.firebaseConfig);
+
 @NgModule({
    declarations: [
       AppComponent,
@@ -69,8 +73,8 @@ import { AngularFireAnalytics } from '@angular/fire/analytics';
       MenuItems,
       PageTitleService,
       ChkService,
-      AngularFireAnalytics,
-      EventLoggerService
+      /* AngularFireAnalytics, */
+      /* EventLoggerService */
    ],
    bootstrap: [AppComponent]
 })

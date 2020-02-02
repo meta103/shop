@@ -1,14 +1,15 @@
 import { Injectable } from '@angular/core';
-import { AngularFireAnalytics } from '@angular/fire/analytics';
+/* import { AngularFireAnalytics } from '@angular/fire/analytics'; */
 
+import * as firebase from 'firebase/app';
 @Injectable()
 export class EventLoggerService {
 
-  constructor(public analytics: AngularFireAnalytics) { }
+  constructor() { }
 
   logEvent() {
-    this.analytics.logEvent('goal_completion', {
-      name: 'linnk-to-amazon'
+    firebase.analytics().logEvent('page_view', {
+      page_path: 'linnk-to-amazon'
     })
   }
 }
