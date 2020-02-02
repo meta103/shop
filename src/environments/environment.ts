@@ -12,6 +12,7 @@ export const environment = {
     projectId: "misfavoritosde1-0",
     storageBucket: "misfavoritosde1-0.appspot.com",
     messagingSenderId: "167004825752",
-    appId: "1:167004825752:web:11f15dca922660cf9a88ed"
+    appId: "1:167004825752:web:11f15dca922660cf9a88ed",
+    measurementId: 'G-DKX3WSPWKF'
   }
 };
