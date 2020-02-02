@@ -5,11 +5,12 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Observable } from 'rxjs';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { EventLoggerService } from '../../service/event-logger.service';
 
 @Component({
 	selector: 'angly-product-detail',
 	templateUrl: './productDetail.component.html',
-	styleUrls: ['./productDetail.component.scss']
+	styleUrls: ['./productDetail.component.scss'],
 })
 export class ProductDetailComponent implements OnInit {
 	/* Variables */
@@ -17,7 +18,7 @@ export class ProductDetailComponent implements OnInit {
 	productDetails$: Observable<any>;
 	relatedProducts: any;
 
-	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router, private db: AngularFireDatabase) {
+	constructor(private pageTitleService: PageTitleService, private service: ChkService, private route: ActivatedRoute, private modalService: NgbModal, public router: Router, private db: AngularFireDatabase, /* public analytics: EventLoggerService */) {
 		/* Page title */
 		this.pageTitleService.setTitle(" Product Detail ");
 
@@ -45,5 +46,10 @@ export class ProductDetailComponent implements OnInit {
 	onClick(page: string) {
 		this.router.navigate([`amazon/products/${page}`]);
 		this.ngOnInit();
+	}
+
+	openAmazonnLink(link: string) {
+		/* this.analytics.logEvent(); */
+		console.log('Llevame a amazon!' + link);
 	}
 }

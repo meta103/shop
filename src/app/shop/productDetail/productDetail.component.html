@@ -40,7 +40,7 @@
 				<p>{{product[0].shortDescription}}</p>
 				<div class="d-flex justify-content-between">
 					<div class="align-content-start w-50">
-						<a routerLink="/product-cart" class="btn btn-primary btn-lg btn-block">Add To Cart</a>
+						<a (click)="openAmazonnLink(product[0].link)" class="btn btn-primary btn-lg btn-block">Add To Cart</a>
 					</div>
 				</div>
 			</div>
