@@ -1,6 +1,5 @@
 import { Component, AfterViewInit } from '@angular/core';
-
-import * as firebase from 'firebase/app';
+import { EventLoggerService } from './service/event-logger.service';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +8,9 @@ import * as firebase from 'firebase/app';
 export class AppComponent implements AfterViewInit {
   title = 'app';
 
+  constructor(private analytics: EventLoggerService){};
+
   ngAfterViewInit() {
-    firebase.analytics().logEvent('eventname', {
-      'firstTimeUser': true,
-      'username': 'test'
-    })
+    this.analytics.logEvent('home');
   }
 }

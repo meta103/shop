@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SlickModule } from 'ngx-slick';
@@ -34,9 +34,9 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 import { EventLoggerService } from './service/event-logger.service';
-import { AngularFireAnalytics } from '@angular/fire/analytics';
+/* import { AngularFireAnalytics } from '@angular/fire/analytics'; */
 
-import * as firebase from "firebase/app";
+import * as firebase from 'firebase/app';
 firebase.initializeApp(environment.firebaseConfig);
 
 @NgModule({
@@ -74,7 +74,7 @@ firebase.initializeApp(environment.firebaseConfig);
       PageTitleService,
       ChkService,
       /* AngularFireAnalytics, */
-      /* EventLoggerService */
+      EventLoggerService
    ],
    bootstrap: [AppComponent]
 })
