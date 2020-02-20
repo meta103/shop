@@ -22,11 +22,11 @@ export class ProductlistComponent implements OnInit {
     private db: AngularFireDatabase
   ) {
     /* Page title */
-    this.pageTitleService.setTitle(' Happy Shopping ');
+    this.pageTitleService.setTitle(' Tienda ');
 
     /* Page subTitle */
     this.pageTitleService.setSubTitle(
-      ' 25% Off and Free global delivery for all products '
+      ' La mejor selección de favoritos de Amazon '
     );
 
     this.db.list('/products').valueChanges().subscribe(

@@ -1,7 +1,7 @@
 <!-- Posts grid -->
 <div class="col-sm-12 col-md-4 col-xl-4 mb-4" *ngFor="let content of postGridContent ? postGridContent.slice(0,3):[]">
 	<div class="card border-0 border-rad m-0">
-     <a (click)="onClick(content.id)"><img class="border-rad-top img-fluid w-100" [src] ="content?.image_path" alt="Card image cap" width="370" height="253" /></a>
+     <a (click)="onClick(content.id)"><img class="border-rad-top w-100" [src] ="content?.image_path" alt="Card image cap" width="370" height="253" /></a>
 		<div class="card-body px-4 pt-4 border-rad-bottom">
 			<h5 class="card-title mb-3"><a (click)="onClick(content.id)">{{content?.title}}</a></h5>
 			<p class="card-text mb-4">{{content?.short_description}}</p>
