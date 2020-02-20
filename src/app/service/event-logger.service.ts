@@ -13,4 +13,10 @@ export class EventLoggerService {
       page_path: page
     });
   }
+
+  logConversion(product: string) {
+    firebase.analytics().logEvent('conversion', {
+      product: product
+    });
+  }
 }
