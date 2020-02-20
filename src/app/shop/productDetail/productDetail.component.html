@@ -40,7 +40,7 @@
 				<p>{{product[0].shortDescription}}</p>
 				<div class="d-flex justify-content-between">
 					<div class="align-content-start w-50">
-						<a (click)="openAmazonnLink(product[0].link)" class="btn btn-primary btn-lg btn-block">Add To Cart</a>
+						<a (click)="openAmazonnLink(product[0].link, product[0].title)" class="btn btn-primary btn-lg btn-block">Comprar</a>
 					</div>
 				</div>
 			</div>
@@ -48,9 +48,9 @@
 		<div class="tab-style mb-5">
 			<ul class="nav nav-tabs nav-tabs-bottom mb-4">
 				<li class="nav-item" aria-expanded="false"> <a class="nav-link active" aria-expanded="true" data-toggle="tab"
-						href="#tab-1">Description</a> </li>
+						href="#tab-1">Descripción</a> </li>
 				<li class="nav-item"> <a class="nav-link" aria-expanded="false" data-toggle="tab"
-						href="#tab-2">Specification</a> </li>
+						href="#tab-2">Especificaciones</a> </li>
 				<li class="nav-item"> <a class="nav-link" aria-expanded="false" data-toggle="tab" href="#tab-3">Reviews</a>
 				</li>
 			</ul>
@@ -69,7 +69,7 @@
 			</div>
 		</div><!-- tab-style closed -->
 		<div class="related-post mb-3">
-			<h2 class="mb-5 text-capitalize">Related Products</h2>
+			<h2 class="mb-5 text-capitalize">Productos relacionados</h2>
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-3" *ngFor="let product of relatedProducts">
 					<div class="card border-0 mb-4">

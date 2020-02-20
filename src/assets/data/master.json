@@ -20,8 +20,8 @@
       {
          "id": "macbook-pro",
          "image": "assets/img/2.jpg",
-         "title": "Fleece Jacket",
-         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "title": "Macbook Pro",
+         "shortDescription": "Portátil MacBook Pro de 13 pulgadas con Touch Bar",
          "longDescription": [
             "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
             "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
@@ -38,52 +38,49 @@
          "id": "airpods-1",
          "image": "assets/img/3.jpg",
          "title": "Airpods",
-         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "shortDescription": "Los tan deseados auriculares inalámbricos de Apple",
          "longDescription": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
+            "Uno de los productos de más éxito de Apple en los últimos años, y no me sorprende. Se han convertido en un imprescindible para cada día y, por su puesto, lo recomiendo.",
+            "Se trata de los Airpods, en mi caso, de primera generación. Los auriculares inalámbricos de Apple incluyen grandes novedades para mejorar la experiencia del usuario",
+            "Tienen un diseño muy cuidado que queda muy bien, son muy ligeros, bastante compactos y, al menos para mi, son bastante cómodos y a pesar de la variedad de opiniones en internet, os puedo asegurar que no, no se caen.",
+            "Vienen dentro de la funda de carga que, a su vez, acumula batería y carga los airpods estés donde estés, lo que te asegura una autonomía para todo el dia. En el interior de la funda, podemos ver una luz que nos indica el nivel de batería de los auriculares, información que también podemos consultar desde nuestro Iphone en el apartado de batería cuando están conectados.",
+            "Estos auriculares disponen de gestos táctiles que nos permite hacer tareas como pasar una canción, coger una llamada o incluso, despertar a Siri",
+            "Si bien es cierto que son un dispositivo que deberías de tener, sobretodo si te mueves en el ecosistema de Apple, hay un par de cosas negatiavas que me gustaría destacar. La primera, es el temor a perderlos, de hecho, yo ya he perdido uno y reponerlo no ha sido nada barato, unos 70€. Por otra parte, el inevitable desgaste de la batería, si bien esto pasa en absolutamente todos los dispotivios de este planeta, me ha pasado que la batería de uno de los dos Airpods se ha desgastado mucho más que la otra. Con lo cual, aunque use los dos al mismo tiempo, siempre hay uno que me tengo que retirar antes que el otro y ponerlo a cargar.",
+            "A pesar de estos puntos negativos, creo que los positivos superan con creces a los negativos, convirtiendolos es un accesorio imprescindible en mi día a día"
          ],
          "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
          "link": "https://amzn.to/35scxT2",
-         "price": 148.99
+         "price": 138.99
       },
       {
-         "id": "4",
+         "id": "funda-disco-duro",
          "image": "assets/img/4.jpg",
-         "title": "Zipped Top",
-         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "title": "Funda Disco Duro",
+         "shortDescription": "Funda resistente y ligera para disco Duro de Amazon Basics",
          "longDescription": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
+            "Hoy os recomiendo esta funda de disco duro súper económica de Amazon Basics pero que, en mi caso, os quiero recomendar para un uso totalmente distinto al de almacenar un disco duro. ",
+            "Esta fue una de esas compras que no sabes exactamente el porqué de las mismas, pero que de alguna manera se acaba convirtiendo en un favorito. En mi caso, la utilizo para transportar diversos accesorios en mi día a día.",
+            "En concreto, lo utilizo para llevar el adaptador de corriente del Macbook, el cable usb tipo C, y un dongle adaptador para el portátil.",
+            "Con lo cual, en este bonito accesorio, puedo llevar todo lo que necesito para poder usar mi Macbook en todas partes y bien protegido."
          ],
-         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
-         "link": "",
-         "price": 550
+         "specifications": "Marca: AmazonBasics, Series: HY3, Peso del producto: 99,8 g, Dimensiones del producto: 13,2 x 3,8 x 10,5 cm, Número de modelo del producto: hy3, Color: Negro",
+         "link": "https://amzn.to/2TafrYf",
+         "price": 8.49
       },
       {
-         "id": "5",
+         "id": "adaptador-cargador-usc-c",
          "image": "assets/img/5.jpg",
-         "title": "Stone Necklace",
-         "shortDescription": "Lorem Ipsum has been the industry's standard",
+         "title": "Adaptador de Cargador USB C a Lightning",
+         "shortDescription": "Pequeño pero práctico adaptador de USB tipo C a Lightning",
          "longDescription": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
+            "Se trata de un sencillo pero muy util adaptador de USB tipo C a Lightning que permite, no solo poder evitar tener que cargar con multitud de cables cada día, sino que también aprovechar la carga rápida en dispositivos compatibles.",
+            "En mi caso, por ejemplo, descubrí que mi Iphone es compatible con la carga rápida y que, en concreto, tambien soporta el voltaje del adapatador de corriente de mi Mac, con lo cual, no necesito llevar siempre encima un cargador para el iphone, con el del Mac ya tengo suficiente, además de que la carga es exponencialmente más rápida.",
+            "Este producto tiene un diseño muy bonito y unas dimensiones muy reducidas que te permiten llevarlo a todas partes. En mi caso, me gusta engancharlo al cable de corriente del Mac con el colgante que viene incluido, y asi tenerlo siempre que lo necesite.",
+            "Un pequeño detalle a tener en cuenta, sirve únicamente para carga, no para transferencia de datos."
          ],
-         "specifications": "- Silver, space silver, 1.48 inch TFT LCD capacitive touch screen, 128*128 pixels Resolution; Dial- Plastic; Strap- Flexible & durable - Bluetooth 4.0, Magnetic charging cable (2 m), Sport Band - Retina display with Force Touch, Sport Band with stainless steel pin, Composite back, accelerometer",
-         "link": "",
-         "price": 650
+         "specifications": "Marca: Belkertech, Peso del producto: 18,1 g, Dimensiones del producto: 2 x 1 x 1 cm, Soporte PD de carga rápida: chip PD de alta calidad integrado, se pueden identificar diferentes protocolos de cargador, perfecto para los cargadores de protocolos de control de calidad y PD. Puede funcionar bien para el cargador original de Mac-Book e i-Pad también. Admite 5V 2.4A al máximo para i-Pad, y para el teléfono inteligente i-Phone, máximo 5V 2A. Compatibilidad sólida: compatible con su dispositivo i-Phone, i-Pad o i-Pod equipado con un conector de iluminación, como: i-Phone X / Xs / Xs Max / XR, i-Phone 8/8 Plus, i Teléfono 7/7 Plus, i-Pod Nano 7, i-Pod Touch 5, i-Pad 4, i-Pad5, i-Pad Air, i-Pad Air 2, i-Pad Mini 4, i-Pad Mini 3, i-Pad Mini así sucesivamente.",
+         "link": "https://amzn.to/37D8Nyz",
+         "price": 10.86
       },
       {
          "id": "6",
@@ -105,20 +102,55 @@
    ],
    "posts": [
       {
-         "id": "The-new-version-is-now-live-1",
-         "image_path": "assets/img/1-blog.jpg",
-         "title": "The new version is now live! 1",
-         "date": 1500163200,
-         "user_name": "Admin",
+      "id": "rrss-misfavoritosde",
+      "image_path": "assets/img/blog/2-rrss-misfavoritosde.jpg",
+      "title": "Estamos en redes sociales! Nos sigues?",
+      "date": 1500163200,
+      "user_name": "Marcos Tagliabue",
+      "user_icon": "fa-user-circle-o",
+      "short_description": "Efectivamente, ya tenemos cuentas oficiales en las redes sociales! No nos sigues todavía?? A que esperas...",
+      "content": [
+         "Efectivamente, ya tenemos cuentas oficiales en las redes sociales! No nos sigues todavía?? A que esperas??",
+         "Instagram: https://www.instagram.com/misfavoritosde/",
+         "Twitter: https://twitter.com/misfavoritosde",
+         "Facebook: https://www.facebook.com/Misfavoritosde-104953477767550/"
+      ],
+      "read_more_url": "javascript:void(0);",
+      "read_more_bgcolor": "bg-primary",
+      "tags": [
+         {
+            "btnBgClass": "btn-primary",
+            "value": "Redes Sociales"
+         },
+         {
+            "btnBgClass": "bg-green",
+            "value": "Instagram"
+         },
+         {
+            "btnBgClass": "btn-dark",
+            "value": "Facebook"
+         },
+         {
+            "btnBgClass": "btn-warning",
+            "value": "Twitter"
+         }
+      ]
+      },
+      {
+         "id": "comenzamos-misfavoritosde",
+         "image_path": "assets/img/blog/1-comenzamos-misfavoritosde.jpg",
+         "title": "Comenzamos! Qué es misfavoritosde?",
+         "date": 1580688000,
+         "user_name": "Marcos Tagliabue",
          "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
+         "short_description": "Bienvenid@! Este es el primer post de (espero) muchos y el comienzo de una gran aventura juntos! misfav...",
          "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
+            "Bienvenid@! Este es el primer post de (espero) muchos y el comienzo de una gran aventura juntos! misfavoritosde.com surge como un proyecto personal con el objetivo de consolidar diferentes conocimientos técnicos adquiridos recientemente.",
+            "La filosofía que hay detrás de esta página web es la de poder proporcionar recomendaciones personales y de calidad de productos reales adquiridos a través de amazon por un usuario real, como tú. Pero queremos brindarte también, una experiencia totalmente innovadora. Se trata de dar un formato de e-commerce a un proyecto que es, más bien, una especie de blog de productos de Amazon.",
+            "De alguna manera el objetivo, es crear una especie de e-commerce de productos recomendados, donde las descripciones de los productos son totalmente reales y transparentes basadas en la experiencia de un usuario.",
+            "Sin pelos en la lengua! Esta es la visión de esta página, tener una plataforma en donde te puedas fiar de la descripción de un producto y que puedas utilizar como referente antes de hacer cualquier compra en Amazon.",
+            "Dicho esto, esperamos que disfrutes de este proyecto tanto como nosotros llevándolo a cabo. Nos vemos en el próximo post!",
+            ":)"
          ],
          "read_more_url": "javascript:void(0);",
          "read_more_bgcolor": "bg-primary",
@@ -174,349 +206,73 @@
          ]
       },
       {
-         "id": "The-new-version-is-now-live-2",
-         "image_path": "assets/img/2-blog.jpg",
-         "title": "The new version is now live! 2",
-         "date": 1500163200,
-         "user_name": "Admin",
-         "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
-         "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
-         ],
-         "read_more_url": "javascript:void(0);",
-         "read_more_bgcolor": "bg-primary",
-         "tags": [
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Angular2"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "HTML"
-            },
-            {
-               "btnBgClass": "btn-dark",
-               "value": "SCSS"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Garden"
-            },
-            {
-               "btnBgClass": "btn-danger",
-               "value": "Photography"
-            },
-            {
-               "btnBgClass": "bg-yellow",
-               "value": "City"
-            },
-            {
-               "btnBgClass": "btn-info",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "Wordpress"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Fashion"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Graphics"
-            },
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Love"
-            }
-         ]
-      },
-      {
-         "id": "The-new-version-is-now-live-3",
-         "image_path": "assets/img/3-blog.jpg",
-         "title": "The new version is now live! 3",
-         "date": 1500163200,
-         "user_name": "Admin",
-         "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
-         "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
-         ],
-         "read_more_url": "javascript:void(0);",
-         "read_more_bgcolor": "bg-primary",
-         "tags": [
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Angular2"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "HTML"
-            },
-            {
-               "btnBgClass": "btn-dark",
-               "value": "SCSS"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Garden"
-            },
-            {
-               "btnBgClass": "btn-danger",
-               "value": "Photography"
-            },
-            {
-               "btnBgClass": "bg-yellow",
-               "value": "City"
-            },
-            {
-               "btnBgClass": "btn-info",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "Wordpress"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Fashion"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Graphics"
-            },
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Love"
-            }
-         ]
-      },
-      {
-         "id": "The-new-version-is-now-live-4",
-         "image_path": "assets/img/4-blog.jpg",
-         "title": "The new version is now live! 4",
-         "date": 1500163200,
-         "user_name": "Admin",
-         "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
-         "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
-         ],
-         "read_more_url": "javascript:void(0);",
-         "read_more_bgcolor": "bg-primary",
-         "tags": [
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Angular2"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "HTML"
-            },
-            {
-               "btnBgClass": "btn-dark",
-               "value": "SCSS"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Garden"
-            },
-            {
-               "btnBgClass": "btn-danger",
-               "value": "Photography"
-            },
-            {
-               "btnBgClass": "bg-yellow",
-               "value": "City"
-            },
-            {
-               "btnBgClass": "btn-info",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "Wordpress"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Fashion"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Graphics"
-            },
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Love"
-            }
-         ]
-      },
-      {
-         "id": "The-new-version-is-now-live-5",
-         "image_path": "assets/img/5-blog.jpg",
-         "title": "The new version is now live! 5",
-         "date": 1500163200,
-         "user_name": "Admin",
-         "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
-         "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
-         ],
-         "read_more_url": "javascript:void(0);",
-         "read_more_bgcolor": "bg-primary",
-         "tags": [
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Angular2"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "HTML"
-            },
-            {
-               "btnBgClass": "btn-dark",
-               "value": "SCSS"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Garden"
-            },
-            {
-               "btnBgClass": "btn-danger",
-               "value": "Photography"
-            },
-            {
-               "btnBgClass": "bg-yellow",
-               "value": "City"
-            },
-            {
-               "btnBgClass": "btn-info",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "Wordpress"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Fashion"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Graphics"
-            },
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Love"
-            }
-         ]
-      },
-      {
-         "id": "The-new-version-is-now-live-6",
-         "image_path": "assets/img/6-blog.jpg",
-         "title": "The new version is now live! 6",
-         "date": 1500163200,
-         "user_name": "Admin",
-         "user_icon": "fa-user-circle-o",
-         "short_description": "Quisque et tincidunt ex, ut mollis ante. Vestibulum vulputate eget nulla sed tincidunt. Nam euismod sem...",
-         "content": [
-            "Death there mirth way the noisy merit. Piqued shy spring nor six though mutual living ask extent. Replying of dashwood advanced ladyship smallest disposal or. Attempt offices own improve now see. Called person are around county talked her esteem. Those fully these way nay thing seems. It is a long established fact that a reader will be distracted by the readable content of a page when",
-            "looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here. making it look like readable English.",
-            "Many desktop publishing packages and web page editors now use Lorem",
-            "Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in",
-            "their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose",
-            ""
-         ],
-         "read_more_url": "javascript:void(0);",
-         "read_more_bgcolor": "bg-primary",
-         "tags": [
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Angular2"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "HTML"
-            },
-            {
-               "btnBgClass": "btn-dark",
-               "value": "SCSS"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Garden"
-            },
-            {
-               "btnBgClass": "btn-danger",
-               "value": "Photography"
-            },
-            {
-               "btnBgClass": "bg-yellow",
-               "value": "City"
-            },
-            {
-               "btnBgClass": "btn-info",
-               "value": "Admin"
-            },
-            {
-               "btnBgClass": "bg-green",
-               "value": "Wordpress"
-            },
-            {
-               "btnBgClass": "btn-warning",
-               "value": "Fashion"
-            },
-            {
-               "btnBgClass": "btn-success",
-               "value": "Graphics"
-            },
-            {
-               "btnBgClass": "btn-primary",
-               "value": "Love"
-            }
-         ]
-      }
+        "id": "comenzamos-misfavoritosde",
+        "image_path": "assets/img/blog/1-comenzamos-misfavoritosde.jpg",
+        "title": "Comenzamos! Qué es misfavoritosde?",
+        "date": 1580688000,
+        "user_name": "Marcos Tagliabue",
+        "user_icon": "fa-user-circle-o",
+        "short_description": "Bienvenid@! Este es el primer post de (espero) muchos y el comienzo de una gran aventura juntos! misfav...",
+        "content": [
+           "Bienvenid@! Este es el primer post de (espero) muchos y el comienzo de una gran aventura juntos! misfavoritosde.com surge como un proyecto personal con el objetivo de consolidar diferentes conocimientos técnicos adquiridos recientemente.",
+           "La filosofía que hay detrás de esta página web es la de poder proporcionar recomendaciones personales y de calidad de productos reales adquiridos a través de amazon por un usuario real, como tú. Pero queremos brindarte también, una experiencia totalmente innovadora. Se trata de dar un formato de e-commerce a un proyecto que es, más bien, una especie de blog de productos de Amazon.",
+           "De alguna manera el objetivo, es crear una especie de e-commerce de productos recomendados, donde las descripciones de los productos son totalmente reales y transparentes basadas en la experiencia de un usuario.",
+           "Sin pelos en la lengua! Esta es la visión de esta página, tener una plataforma en donde te puedas fiar de la descripción de un producto y que puedas utilizar como referente antes de hacer cualquier compra en Amazon.",
+           "Dicho esto, esperamos que disfrutes de este proyecto tanto como nosotros llevándolo a cabo. Nos vemos en el próximo post!",
+           ":)"
+        ],
+        "read_more_url": "javascript:void(0);",
+        "read_more_bgcolor": "bg-primary",
+        "tags": [
+           {
+              "btnBgClass": "btn-primary",
+              "value": "Angular2"
+           },
+           {
+              "btnBgClass": "bg-green",
+              "value": "HTML"
+           },
+           {
+              "btnBgClass": "btn-dark",
+              "value": "SCSS"
+           },
+           {
+              "btnBgClass": "btn-warning",
+              "value": "Admin"
+           },
+           {
+              "btnBgClass": "btn-success",
+              "value": "Garden"
+           },
+           {
+              "btnBgClass": "btn-danger",
+              "value": "Photography"
+           },
+           {
+              "btnBgClass": "bg-yellow",
+              "value": "City"
+           },
+           {
+              "btnBgClass": "btn-info",
+              "value": "Admin"
+           },
+           {
+              "btnBgClass": "bg-green",
+              "value": "Wordpress"
+           },
+           {
+              "btnBgClass": "btn-warning",
+              "value": "Fashion"
+           },
+           {
+              "btnBgClass": "btn-success",
+              "value": "Graphics"
+           },
+           {
+              "btnBgClass": "btn-primary",
+              "value": "Love"
+           }
+        ]
+     }
    ]
 }

@@ -108,16 +108,16 @@
 }
 @media (max-width:767px) {
   	.main-menu {
-    	background: darken($blue, 7%);
+    	background: darken($orange, 7%);
     	margin-top: 15px;
     	> li {
-      border-bottom: 1px solid darken($blue, 3%);
+      border-bottom: 1px solid darken($orange, 3%);
       &:last-child {
         border: none;
       }
       a {
         padding: 10px 20px !important;
-        position: relative; 
+        position: relative;
         text-transform:capitalize;
         i {
           position: absolute;
@@ -149,7 +149,7 @@
           opacity: 1;
           transform: translateX(0px);
         }
-      } 
+      }
    }
 	.search-form span {
 		display: block;

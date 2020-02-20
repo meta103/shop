@@ -1,6 +1,6 @@
 <!-- Blog Detail wrapper -->
 <div *ngIf="postDetail$ | async as post">
-	<div #scrollContainer class="over-scroll" (scroll)="onScroll($event)" [ngClass]="{'fixed-header' : fixedHeaderClass}">
+	<div #scrollContainer class="over-scroll" [ngClass]="{'fixed-header' : fixedHeaderClass}">
 		<div class="section-heading section-gap bg-light">
 			<div class="text-center">
 				<div class="container">
@@ -36,18 +36,18 @@
 						<div class="social-icons" angly-socials [socials]="socialDetails" [socialsClasses]="socialsClasses"></div>
 					</div>
 				</div>
-				<div class="row my-5">
+	<!-- 			<div class="row my-5">
 					<div class="col-6 col-sm-2 col-md-2 col-lg-2 col-xl-2 m-sm-b"> <img class="img-fluid rounded-circle"
 							src="assets/img/marcos-tagliabue.jpg" width="150" alt="Generic placeholder image"></div>
 					<div class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10">
-						<h5 class="mt-0 fw-700 mb-3">Jim Gorden</h5>
+						<h5 class="mt-0 fw-700 mb-3">Marcos Tagliabue</h5>
 						Discount toner cartridges were originally sold as recycled toner cartridges. The basic recycling method
 						consisted of drilling a hole in the cartridge and re-filling it with toner. Once the cartridge was filled,
 						the hole was plugged. This toner cartridge was then sold to the consumer as a great deal or a “discount
 						toner cartridge”.
 					</div>
-				</div>
-				<div class="user-comment mb-5">
+				</div> -->
+				<!-- <div class="user-comment mb-5">
 					<div class="mb-4">
 						<h4 class="fw-700">Comments(4)</h4>
 					</div>
@@ -124,7 +124,7 @@
 						</a>
 						<div class="media-body">
 							<div class="d-flex justify-content-between">
-								<h5 class="media-heading fw-700 mb-3">Sam Marsh
+								<h5 class="media-heading fw-700 mb-3">Marcos Tagliabue
 								</h5>
 								<div class="">
 									<p class="font-sm">Sept 11, 11:40 AM</p>
@@ -139,9 +139,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- User Comment Block Closed -->
-				<h4 class="fw-700 mb-4">Leave Comments</h4>
+				<!-- <h4 class="fw-700 mb-4">Leave Comments</h4>
 				<div class="user-comment-section">
 					<form class="leave-comment" action="javascript:void(0);" method="post">
 						<div class="row">
@@ -177,7 +177,7 @@
 							<button type="submit" class="btn btn-primary px-4">Post</button>
 						</div>
 					</form>
-				</div>
+				</div> -->
 				<!-- User Comment section closed -->
 			</div>
 		</div>

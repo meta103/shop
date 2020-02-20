@@ -21,15 +21,15 @@ export class BlogDetailComponent implements OnInit {
    * Social links
    */
   socialDetails: any = [
-    { icon: 'fa-facebook' },
-    { icon: 'fa-twitter text-info' },
-    { icon: 'fa fa-pinterest-p text-danger' },
+    { icon: 'fa-facebook', url: 'https://www.facebook.com/Misfavoritosde-104953477767550/' },
+    { icon: 'fa-twitter', url: 'https://twitter.com/misfavoritosde' },
+    { icon: 'fa fa-instagram', url: 'https://www.instagram.com/misfavoritosde/' },
   ]
 
   /*
    * Classes of social ul, li
    */
-  socialsClasses: any = { ulClass: "", liClass: "", linkClass: "" }
+  socialsClasses: any = { ulClass: '', liClass: '', linkClass: '' };
 
   constructor(private service: ChkService, private route: ActivatedRoute, private db: AngularFireDatabase) { }
 
